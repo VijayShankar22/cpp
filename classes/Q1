@@ -1,0 +1,22 @@
+//Create a class named 'Student' with a string variable 'name' and an integer variable 'rollno'. 
+//Assign the value of roll_no as '200' and that of name as "smith" by creating an object of the class Student.
+
+
+
+#include <iostream>
+using namespace std;
+
+class student{
+    public:
+    string sname;
+    int rollno;
+};
+
+int main(){
+    student s1;
+    s1.sname = "smith";
+    s1.rollno = 200;
+    cout << "student name: " << s1.sname;
+    cout << "  rollno: " << s1.rollno;
+    return 0;
+}
